@@ -20,3 +20,18 @@
 # list1=[1,2,3,4,5,6]
 # z=list(map(lambda x:x**2,list1))
 # print(z)
+
+class bank:
+    def __init__(self,bankACC,branch,withdraw,balance):
+        self.bankACC=bankACC
+        self.branch=branch
+        self.withdraw=withdraw
+        self.__balance=balance
+    def bankdet(self):
+        print(f"The bank account number {self.bankACC} and branch name {self.branch} amount to withdraw {self.withdraw} the remainind balance {self.__balance} ")
+
+    def get_balance(self):
+        return self.__balance 
+
+details=bank(123456789,"Kadapa",10000,90000)
+details.bankdet()
