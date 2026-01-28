@@ -72,19 +72,21 @@
 # de=update("Yeshu","Btech",7.2,"CSE")
 # de.update_call()
 
-class student:
-    def __init__(self,Name,regno,branch):
-        self.Name=Name
-        self.regno=regno
-        self.branch=branch
+# class student:
+#     def __init__(self,Name,regno,branch):
+#         self.Name=Name
+#         self.regno=regno
+#         self.branch=branch
     
-class mentor(student):
-    def __init__(self,Name,regno,branch,mentorname):
-        super().__init__(Name,regno,branch)
-        self.mentorname=mentorname
+# class mentor(student):
+#     def __init__(self,Name,regno,branch,mentorname):
+#         super().__init__(Name,regno,branch)
+#         self.mentorname=mentorname
     
-    def mentor_call(self):
-        print(f"Name of the student {self.Name} regno number {self.regno} branch {self.branch} mentor name {self.mentorname} ")
+#     def mentor_call(self):
+#         print(f"Name of the student {self.Name} regno number {self.regno} branch {self.branch} mentor name {self.mentorname} ")
 
-update=mentor("Yeshu",12312308,"CSE","Tharun")
-update.mentor_call()
+# update=mentor("Yeshu",12312308,"CSE","Tharun")
+# update.mentor_call()
+
+
