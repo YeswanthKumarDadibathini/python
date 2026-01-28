@@ -37,15 +37,16 @@ details=bank(123456789,"Kadapa",10000,90000)
 details.bankdet()
 
 class cars:
-    def __init__(self,car_model,owner_name,branch,car_plate):
+    def __init__(self,car_model,owner_name,branch,carplate):
         self.car_model=car_model
         self.owner_name=owner_name
         self.branch=branch
-        self.__car_plate=car_model
+        self.__carplate=carplate
     def car_del(self):
-        print(f"model of the car {self.car_model} owners name {self.owner_name} location of the branch {self.branch} and car plate {self.__car_plate} ")
+        print(f"model of the car {self.car_model} owners name {self.owner_name} location of the branch {self.branch} and car plate {self.__carplate} ")
+    
     def get_plate(self):
-        return self.__car_plate
+        return self.__carplate
 
-detailss=cars('BMW','yeshu','kadapa',4)
+detailss=cars('BMW','yeshu','kadapa',1)
 detailss.car_del()
